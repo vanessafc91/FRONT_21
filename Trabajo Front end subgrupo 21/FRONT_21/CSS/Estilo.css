@@ -1,0 +1,186 @@
+/* Estilos generales */
+
+/* Resetear márgenes y rellenos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fuente de texto predeterminada */
+}
+
+/* Estilos para la barra superior */
+.Barra_superior {
+    background-color: #ffffff; /* Color de fondo */
+    padding: 10px 20px; /* Relleno interno */
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    justify-content: space-between; /* Alinear los elementos a los extremos */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para el nombre de la empresa */
+.Nombre_empresa {
+    
+    width: 90px; /*definir tamaño del logo*/
+    margin: left 10px; /* definir la aliniación de la imagen*/
+    margin-right: auto; /* definir la aliniación de la imagen*/
+    font-size: 24px; /* Tamaño de fuente */
+
+}
+
+/* Estilos para el menú de navegación */
+.menu {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar relleno */
+    margin: 0; /* Eliminar márgenes */
+}
+
+  
+/* Estilos para los elementos del menú */
+.menu li {
+    display: inline-block; /* Mostrar elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+/* Estilos para el botón de login */
+.BotonLog {
+    background-color: green; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Relleno interno */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar el ratón */
+}
+
+/* Estilos para las secciones */
+
+/* Estilos para todas las secciones */
+.section {
+    margin-bottom: 40px; /* Margen inferior entre secciones */
+}
+
+/* Estilos para el título de la sección */
+.section h2 {
+    font-size: 24px; /* Tamaño de fuente */
+}
+
+.Fondo3 {
+    background-color: rgb(161, 161, 161); /* Color de fondo del rectángulo */
+    padding: 150px; /* Relleno interno para espacio alrededor de "nuestra marca" */
+    margin-top: 1px; /* Margen superior para separar del borde superior */
+    /* Otras propiedades de estilo necesarias */
+}
+
+
+/* Estilos para los servicios */
+.servicioss {
+    display: flex; /* Utilizar flexbox */
+    flex-wrap: wrap; /* Envolver elementos en múltiples líneas */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+/* Estilos para cada cuadro de servicio */
+.Caja_de_textos {
+    width: calc(50% - 20px); /* Ancho del cuadro, menos el margen */
+    padding-top: calc(50% - 20px); /* Altura del cuadro, menos el margen */
+    background-color: #f2f2f2; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    margin: 10px; /* Margen exterior */
+    box-sizing: border-box; /* Incluimos el borde en el ancho total */
+    text-align: center; /* Alineamos el texto al centro */
+    float: left; /* Alineamos los cuadros a la izquierda */
+}
+
+/* Ajuste para dos filas de tres cuadros cada una */
+@media (min-width: 600px) {
+    .Caja_de_textos {
+        width: calc(33.33% - 20px); /* Ancho de cada cuadro, menos el margen */
+        padding-top: calc(15.33% - 20px); /* Altura de cada cuadro, menos el margen */
+    }
+}
+
+/* Estilos para los testimonios */
+.testimonioss {
+    display: flex; /* Utilizar flexbox */
+    flex-wrap: nowrap; /* No envolver los elementos */
+    overflow-x: auto; /* Desplazamiento horizontal */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+/* Estilos para cada cuadro de testimonio */
+.Cajita_testimonios {
+    width: 200px; /* Ancho del cuadro */
+    height: 100px; /* Altura del cuadro */
+    background-color: #f2f2f2; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-right: 20px; /* Margen derecho */
+}
+
+/* Estilos para el botón de contacto */
+.BotonContact {
+    background-color: green; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Relleno interno */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    display: block; /* Mostrar como bloque */
+    margin: 20px auto; /* Margen automático */
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 20px; /* Relleno interno */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilos para el contenido del pie de página */
+.footer-content {
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para la marca en el pie de página */
+.brand {
+    color: #f2f2f2;
+    width: 90px; /*definir tamaño del logo*/
+    margin: left 10px; /* definir la aliniación de la imagen*/
+    margin-right: auto; /* definir la aliniación de la imagen*/ /* Color de texto */
+}
+
+/* Estilos para los nombres de los integrantes en el pie de página */
+.members {
+    color: #f2f2f2; /* Color de texto */
+    
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #2c584d;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(27, 112, 108), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(24, 117, 124), rgba(37, 117, 252, 1))
+    }
+.gradient-custom_contactos {
+    /* fallback for old browsers */
+    background: #2c3130;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(202, 235, 233), rgb(202, 235, 233));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(202, 235, 233), rgb(202, 235, 233))
+    }
+
+
+
+
+
+
+
