@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/contacts/contact-1/assets/css/contact-1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+</head>
+<body>
+    
+    <div class="Barra_superior">
+      <img class="Nombre_empresa" src="Img/logo.jpg" alt="">
+            <ul class="menu">
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="Nuevo.html">Nosotros</a></li>
+            <li><a href="Nuevo.html">Nuestros Servicios</a></li>
+            <li><a href="form_contactenos.html">Contáctenos</a></li>
+        </ul>
+        
+    </div>
+            <!-- Contact 1 - Bootstrap Brain Component -->
+            <section class="vh-75 gradient-custom_registrousr">
+              <div class="container py-5 h-75">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                      <div class="card-body p-5 text-center">
+                        <div id="mensajeErrorCampos"></div>
+                        <div id="mensajeExito"></div>
+                        
+            
+                        <div class="mb-md-5 mt-md-4 pb-5">
+            
+                          <h2 class="fw-bold mb-2 text-uppercase">Bienvenido</h2>
+                          <p class="text-white-50 mb-5">vemos que no tienes una cuenta todavia. No te preocupes, Puedes crear una ahora mismo, el proceo no te tomara mas de 3 minutos</p>
+            
+                          <div data-mdb-input-init class="form-outline form-white mb-4">
+                            <input type="name" id="name" class="form-control form-control-lg" />
+                            <label class="form-label" for="name">Nombre completo</label>
+                          </div>
+            
+                          <div data-mdb-input-init class="form-outline form-white mb-4">
+                            <select type="rol" id="rol" class="form-control form-control-lg" placeholder="seleccione">
+                                <option>seleccione</option>
+                                <option>administrador</option>
+                                <option>cliente</option>
+                            </select>
+                            <label class="form-label" for="rol">rol</label>
+                          </div>
+
+                          <div data-mdb-input-init class="form-outline form-white mb-4">
+                            <input type="email" id="email" class="form-control form-control-lg" placeholder="ej. nombre@dominio.com"/>
+                            <label class="form-label" for="email">correo</label>
+                          </div>
+
+                          <div data-mdb-input-init class="form-outline form-white mb-4">
+                            <input type="password" id="password" class="form-control form-control-lg" />
+                            <label class="form-label" for="password">contraseña</label>
+                          </div>
+
+                          <div data-mdb-input-init class="form-outline form-white mb-4">
+                            <input type="password" id="confirmarpass" class="form-control form-control-lg" />
+                            <label class="form-label" for="confirmarpass">confirmación de contraseña</label>
+                          </div>
+                                             
+                          <div>
+                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-lg px-5" type="submit" id="botonEnviar"> Registrar usuario</button> 
+                          </div>
+
+                          <div id="mensajeExito"></div>
+                      
+                        </div> 
+                        
+                        <script type="text/javascript" src="js/script.js"></script>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+  
+</div>
+</body>
+<footer>
+  <div class="footer">
+    <div class="footer-content">
+        <img class="brand" src="Img/logo.jpg" alt="">
+        <div class="members">Vanessa Forero Castro</div>
+        <div class="members">Juan Camilo Prieto Vargas</div>
+        <div class="members">Juan David Vargas Marino</div>
+        <div class="members">Faiver Ordoñez Rojas</div>
+        <div class="members">Diego Alejandro Alfonso Guette</div>
+    </div>
+</div>
+  </footer>
+</html>

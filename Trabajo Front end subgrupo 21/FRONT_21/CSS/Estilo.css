@@ -142,7 +142,7 @@ body {
     display: flex; /* Utilizar flexbox */
     justify-content: space-between; /* Espacio entre elementos */
     align-items: center; /* Centrar verticalmente */
-}
+    }
 
 /* Estilos para la marca en el pie de página */
 .brand {
@@ -177,6 +177,21 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, rgb(202, 235, 233), rgb(202, 235, 233))
     }
+    .gradient-custom_registrousr {
+        /* fallback for old browsers */
+        background: #5a6462;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgb(202, 235, 233), rgb(202, 235, 233));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgb(202, 235, 233), rgb(202, 235, 233))
+        }
+    #mensajeErrorCampos
+        {
+            color: red;
+            font-size:110% !important;
+        }
 
 
 
