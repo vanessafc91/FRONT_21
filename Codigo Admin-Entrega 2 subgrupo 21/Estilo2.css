@@ -1,0 +1,195 @@
+/* Estilos generales */
+body {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+/* Estilos adicionales para la barra superior */
+.Barra-superior {
+    background-color: #f2f2f2; /* Color de fondo */
+    padding: 10px 20px; /* Espacio interior */
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Alinear elementos horizontalmente */
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+.Empresa {
+    font-size: 24px; /* Tamaño de la fuente */
+}
+
+.menu {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+    margin: 0; /* Sin margen */
+}
+
+.menu li {
+    display: inline-block; /* Mostrar en línea */
+    margin-right: 10px; /* Margen derecho */
+}
+
+.BotonL {
+    background-color: rgb(62, 63, 62); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+}
+
+.SegundoTitulo {
+    background-color: #b8b6b6; /* Color de fondo */
+    color: rgb(5, 5, 5); /* Color del texto */
+    padding: 100px; /* Espacio interior */
+    margin-top: 50; /* Margen superior */
+    text-align: left; /* Alinear texto a la izquierda */
+    width: 100%; /* Ancho completo */
+    box-sizing: border-box; /* Incluir borde y relleno en el tamaño */
+    position: absolute; /* Posición absoluta */
+    top: 70px; /* Distancia desde la parte superior */
+    left: 0; /* Distancia desde la izquierda */
+}
+
+.Servicios3 {
+    background-color: #f5f5f5; /* Color de fondo */
+    padding-top: 20px; /* Espacio superior */
+    margin-top: 220px; /* Margen superior */
+}
+
+.services-section h2 {
+    font-size: 24px; /* Tamaño de la fuente */
+}
+
+.Fila {
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Alinear elementos horizontalmente */
+    align-items: center; /* Alinear elementos verticalmente */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.servicio4 {
+    width: calc(100%); /* Ancho del cuadro */
+    background-color: #ccc; /* Color de fondo */
+    padding: 10px; /* Espacio interior */
+    display: flex; /* Utilizar flexbox */
+    flex-direction: row; /* Dirección de la fila */
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+.Cuadroparaimagen {
+    width: 150px; /* Ancho del cuadro de imagen */
+    height: 100px; /* Alto del cuadro de imagen */
+    background-color: rgb(150, 150, 150); /* Color de fondo */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.Info h3 {
+    margin-top: 10px; /* Margen superior */
+    margin-left: 80px; /* Margen izquierdo */
+}
+
+.Accion {
+    display: flex; /* Utilizar flexbox */
+    justify-content: flex-end; /* Alinear elementos al final */
+}
+
+/* Estilos para los botones de servicio */
+.EliminarBtn {
+    background-color: rgb(204, 26, 26); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 5px 10px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-left: 500px; /* Margen izquierdo */
+}
+
+.AgregarBtn{
+    background-color: rgb(119, 119, 119); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 5px 10px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-left: 500px; /* Margen izquierdo */
+}
+
+.EditarBtn {
+    background-color: green; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 5px 10px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-right: 10px; /* Margen derecho */
+}
+
+.Testimonios {
+    display: flex; /* Utilizar flexbox */
+    flex-wrap: nowrap; /* No envolver elementos */
+    overflow-x: auto; /* Desplazamiento horizontal */
+    justify-content: center; /* Alinear elementos horizontalmente */
+}
+
+/* Estilos para los cuadros de testimonio */
+.Admin_testimonios {
+    width: 200px; /* Ancho del cuadro */
+    height: 100px; /* Alto del cuadro */
+    background-color: #f2f2f2; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Alinear elementos horizontalmente */
+    align-items: center; /* Alinear elementos verticalmente */
+    margin-right: 20px; /* Margen derecho */
+    position: relative; /* Posición relativa */
+}
+
+/* Estilos para el botón dentro de los cuadros de testimonio */
+.Botontestimonios{
+    position: absolute; /* Posición absoluta */
+    bottom: 70px; /* Posicionamiento desde la parte inferior */
+    right: 10px; /* Posicionamiento desde la derecha */
+    background-color: rgb(158, 9, 9); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 5px 10px; /* Espacio interior */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+}
+
+.Botoncontacto {
+    background-color: green; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    display: block; /* Mostrar como bloque */
+    margin: 50px auto; /* Margen exterior */
+}
+
+.footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espacio interior */
+    text-align: center; /* Alinear texto al centro */
+}
+
+.footer-contenido {
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Alinear elementos horizontalmente */
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+.TextodelaIzquierda {
+    color: #f2f2f2; /* Color del texto */
+}
+
+.NombresGrupo {
+    color: #f2f2f2; /* Color del texto */
+}
+
+
+
+
