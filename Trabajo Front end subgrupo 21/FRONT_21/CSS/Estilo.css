@@ -54,20 +54,47 @@ body {
 
 /* Estilos para todas las secciones */
 .section {
-    margin-bottom: 40px; /* Margen inferior entre secciones */
+    margin-bottom: 50px; /* Margen inferior entre secciones */
+    background-image: linear-gradient(
+    to bottom,
+    rgba(4, 244, 252, 0.014),
+    rgba(0, 153, 255, 0)    
+    ), url("../Img/fondo1.png"); /*dirccionar cargue de imagen de fondo*/
+    
+        
 }
 
 /* Estilos para el título de la sección */
 .section h2 {
-    font-size: 24px; /* Tamaño de fuente */
+    font-size: 60px; /* Tamaño de fuente */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section2 {
+    /*margin-bottom: 50px;*/
+    margin-top: 5px;
+    font-size: 70px; /* Tamaño de fuente */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+.section3 {
+    /*margin-bottom: 50px;*/
+    margin-top: 5px;
+    font-size: 30px; /* Tamaño de fuente */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
 }
 
 .Fondo3 {
-    background-color: rgb(161, 161, 161); /* Color de fondo del rectángulo */
+    opacity: 0.7;
     padding: 150px; /* Relleno interno para espacio alrededor de "nuestra marca" */
     margin-top: 1px; /* Margen superior para separar del borde superior */
     /* Otras propiedades de estilo necesarias */
-}
+    color: black;
+     }
 
 
 /* Estilos para los servicios */
@@ -103,18 +130,21 @@ body {
     flex-wrap: nowrap; /* No envolver los elementos */
     overflow-x: auto; /* Desplazamiento horizontal */
     justify-content: center; /* Centrar los elementos horizontalmente */
+    text-align: center;
+    
 }
 
 /* Estilos para cada cuadro de testimonio */
 .Cajita_testimonios {
     width: 200px; /* Ancho del cuadro */
     height: 100px; /* Altura del cuadro */
-    background-color: #f2f2f2; /* Color de fondo */
+    background-color: #442cc973; /* Color de fondo */
     border: 1px solid #ccc; /* Borde */
     display: flex; /* Utilizar flexbox */
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
     margin-right: 20px; /* Margen derecho */
+    border-radius: 5%;
 }
 
 /* Estilos para el botón de contacto */
@@ -155,6 +185,7 @@ body {
 /* Estilos para los nombres de los integrantes en el pie de página */
 .members {
     color: #f2f2f2; /* Color de texto */
+    margin-right: auto;
     
 }
 .gradient-custom {
@@ -192,6 +223,37 @@ body {
             color: red;
             font-size:110% !important;
         }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .service {
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+    }
+    .service img {
+      width: 100%;
+      height: 60%;
+      border-radius: 10px;
+    }
+    .service h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
 
 
 
